@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Palidrom {
 
 public static boolean isPalidrom(int number){
-    boolean isPolidrom;
+    boolean isPalidrom;
     int temp=number;
     int lastNumber,reverseNumber=0;
     while(temp!=0)
@@ -13,10 +13,12 @@ public static boolean isPalidrom(int number){
     }
      if(reverseNumber==number)
      {
-         return true;
+         isPalidrom=true
+         return isPalidrom;
      }
      else
-         return false;
+       isPalidrom=false
+         return isPalidrom;}
 }
 
 
